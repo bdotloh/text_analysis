@@ -1,0 +1,9 @@
+contractions
+ftfy
+re 
+nltk
+sklearn
+sentence_transformers
+umap-learn[plot]
+hdbscan 
+pandas 
