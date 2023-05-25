@@ -73,9 +73,6 @@ class TextAnalysisPipeline:
     def vizclusters(self,term_cluster_df,pointsize=3.5,ht=640,wt=640):
         """
         Project n-gram embeddings onto a 2-d space, use cluster labels to color each point.
-        Assumes that:
-            1) 'dtm' is a n*d df with where n = num docs and d= terms.
-            2) 'cluster' is a n-dimensional column vector
         """
         
         embs=self.encoder.encode(term_cluster_df.index.tolist())  
