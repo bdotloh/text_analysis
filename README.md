@@ -1,4 +1,4 @@
-# text_analysis
+# text analysis
 
 A simple workflow for processing times. Combines a series of sequential transformations to a set of raw, unprocessed documents.
 
